@@ -17,9 +17,9 @@ This project demonstrates **face detection** in images using **Python** and **Op
 1. Clone the repository:
    ```bash
    git clone https://github.com/kaushikt-04/Face_Detection.git```
-Navigate into the project folder:
-    cd Face_Detection
-Install dependencies:
-    pip install opencv-python numpy
+2.Navigate into the project folder and install dependencies:
+   ```bash
+   cd Face_Detection
+    pip install opencv-python numpy```
 
 A window will open showing detected faces with green rectangles.
