@@ -1,22 +1,25 @@
-# Warning: DEPRECATED
+# Face Detection using OpenCV
 
-Please use the repo for my book, available here: https://github.com/shantnu/PyEng
+This project demonstrates **face detection** in images using **Python** and **OpenCV's Haar Cascade Classifier**.
 
+## Features
+- Detects faces in a given image.
+- Draws green rectangles around detected faces.
+- Prints the number of faces found.
+- Works with any image placed in the project folder.
 
---------------
+## Requirements
+- Python 3.x
+- OpenCV (`opencv-python`)
+- Numpy (`numpy`)
 
-old readme
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kaushikt-04/Face_Detection.git
+2.Navigate into the project folder:
+    cd Face_Detection
+3.Install dependencies:
+    pip install opencv-python numpy  
 
-
-Run the code like this:
-
-*python face_detect.py abba.png*
-
-If you want to understand how the code works, the details are here:
-
-https://realpython.com/blog/python/face-recognition-with-python/
-
-
-Update: Now supports OpenCV3. This change has been made by furetosan ( https://github.com/furetosan) and tested on Linux.
-
-To run the OpenCV3 version, run facedetect_cv3.py.
+A window will open showing detected faces with green rectangles.
